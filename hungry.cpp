@@ -2,5 +2,10 @@
 using namespace std;
 
 int main(){
-    cout<<"I'm hungry";
+
+    cout<<"Are you hungry?";
+    string s;
+    cin>>s;
+    if(s=="y") cout<<"Eat samosa";
+    else cout<<"Do your homework";
 }
